@@ -8,12 +8,6 @@ export default function Contact() {
     console.log(pathName);
 
     return <>
-        <h1>This is contact page</h1>   
-
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/services">Services</Link>
-        
-        <Link href="/contact" className={`${pathName === '/contact' ? 'active' : ''}`}>Contact</Link>
+        <h1 className="capitalize text-5xl">This is contact page</h1>   
     </>
 }
